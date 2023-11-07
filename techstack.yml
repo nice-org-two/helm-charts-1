@@ -1,0 +1,404 @@
+repo_name: nice-org-two/helm-charts-1
+report_id: 307a6135ce32d7fd4ff25596b58e7834
+repo_type: Public
+timestamp: '2023-11-07T13:03:17+00:00'
+requested_by: bob-wise0
+provider: github
+branch: main
+detected_tools_count: 38
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  imageURL: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  imageURL: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Smarty
+  description: Template engine for PHP
+  website_url: http://www.smarty.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  imageURL: https://img.stackshare.io/service/3693/smarty.png
+  detection_source: Repo Metadata
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  imageURL: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: Quickwork
+  description: The Integration and API platform to build automated workflows
+  website_url: https://quickwork.co/
+  version: 1.1.0
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: API Tools
+  imageURL: https://img.stackshare.io/service/21122/default_1f970871c388438e737793ed23ce9b5099a178cf.jpg
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: dbForge Schema Compare for Redshift/PostgreSQL
+  description: Compare and Sync PostgreSQL &amp; Amazon Redshift Databases
+  website_url: https://www.devart.com/dbforge/postgresql/schemacompare/
+  version: 1.1.0
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  imageURL: https://img.stackshare.io/service/21199/default_fc2ebc762805baf8c27cb23feb12da62593659c2.png
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: Argo
+  description: Container-native workflows for Kubernetes
+  website_url: https://argoproj.github.io/
+  version: 4.3.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  imageURL: https://img.stackshare.io/service/9840/PqKLmP_S_400x400.jpg
+  detection_source_url: bitnami/argo-cd/Chart.yaml
+  detection_source: bitnami/argo-cd/values.yaml
+- name: Garden
+  description: End-to-end Platform for Kubernetes Development &amp; Testing
+  website_url: https://garden.io/product/
+  version: 0.11.27
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  imageURL: https://img.stackshare.io/service/21618/default_263f520e84b3c6019908a8434d449c889855068c.jpg
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  imageURL: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  imageURL: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/triage.yml"
+- name: Grafana
+  description: Open source Graphite &amp; InfluxDB Dashboard and Graph Editor
+  website_url: http://grafana.org/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  imageURL: https://img.stackshare.io/service/2645/default_8f9d552b144493679449b16c79647da5787e808b.jpg
+  detection_source: bitnami/grafana-operator/templates/grafana.yaml
+- name: Istio
+  description: Open platform to connect, manage, and secure microservices, by Google,
+    IBM, and Lyft
+  website_url: https://istio.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Microservices Tools
+  imageURL: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
+  detection_source: template/CHART_NAME/values.yaml
+- name: Kotest
+  description: Powerful, elegant and flexible test framework for Kotlin
+  website_url: https://kotest.io/
+  version: 1.1.12
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  imageURL: https://img.stackshare.io/service/21154/default_5b7922a99e2d777cabf7d8a9b4ba9ff0627eae82.png
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: Kubernetes
+  description: Manage a cluster of Linux containers as a single system to accelerate
+    Dev and simplify Ops
+  website_url: http://kubernetes.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  imageURL: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source: bitnami/solr/Chart.yaml
+- name: OpenYurt
+  description: Extending your native Kubernetes to edge (by Alibaba)
+  website_url: https://openyurt.io/en-us/
+  version: 1.0.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  imageURL: https://img.stackshare.io/service/21147/default_f869ec037993bd2c3967e7b605ca929be6bbf362.png
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: ZyXel
+  description: Your Networking Ally
+  website_url: https://www.zyxel.com/us/en/
+  version: 0.0.0
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Networking Hardware
+  imageURL: https://img.stackshare.io/service/21126/default_82855a9a63ac94e02248a391b260a94acbafb41a.png
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: Shufti Pro
+  description: Real-time Identity Verification
+  website_url: https://shuftipro.com/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Identity Verification as a Service
+  imageURL: https://img.stackshare.io/service/21558/default_44cf04260e415c9c264c0736be65f267677c3097.png
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: Abstract APIs
+  description: Simple, powerful APIs for everyday dev tasks
+  website_url: https://www.abstractapi.com/
+  version: 1.3.2
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Customer Information API
+  imageURL: https://img.stackshare.io/service/21140/default_8a94513f1340db48c564130fc609b4ce3d010a76.png
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: Appzi
+  description: A web based user feedback platform that enables SaaS companies to collect
+    product feedback, right from within their website or app
+  website_url: https://www.appzi.com/
+  version: 0.0.0
+  open_source: false
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: Feedback Widget
+  imageURL: https://img.stackshare.io/service/21120/default_ff503018433e4c15bd8f88f38f956808d71ae76e.jpg
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: DrugsDisclosed
+  description: DrugsDisclosed.com, the ‘medication Trustpilot’, allows patients to
+    share real world experiences of their medicines.
+  website_url: https://www.DrugsDisclosed.com
+  version: 0.3.6
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Healthcare
+  imageURL: https://img.stackshare.io/service/21139/default_a91af1b38a50bbe8d5c2a2885d3add753139c68e.png
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: Dutypare
+  description: Comparing duty free products from worldwide shops.
+  website_url: https://dutypare.com
+  version: 0.0.0
+  open_source: false
+  hosted_saas: false
+  imageURL: https://img.stackshare.io/service/21119/default_7d7cdfe126e00b141809117af1af8ba177913dc4.png
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: Eniston
+  description: Easy to use Knowledge Base Software you will love managing.
+  website_url: https://eniston.io
+  version: 0.3.0
+  open_source: false
+  hosted_saas: false
+  imageURL: https://img.stackshare.io/service/21626/default_c0fde59b2b87032b98232418403c06ab20941ac3.png
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: LISS
+  description: Insurance and pension solution
+  website_url: https://www.exlservice.com/liss-overview
+  version: 0.0.0
+  open_source: false
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: Insurance Solutions
+  imageURL: https://img.stackshare.io/service/21291/default_6e99badba8284e715499fcb030bbbcf8a76c18e5.png
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: Oktell
+  description: A contact center automation platform
+  website_url: https://oktell.ru/
+  version: 0.19.5
+  open_source: false
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: Call Center Management
+  imageURL: https://img.stackshare.io/service/21302/default_5bbd7ccec3ff0e66da434030f9170680819b14d1.png
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: PAM
+  description: A comprehensive accounting and management platform
+  website_url: https://www.statestreet.com/solutions/by-capability/ssgs/invest-service/accounting.html
+  version: 1.1.1
+  open_source: false
+  hosted_saas: false
+  category: Back Office
+  sub_category: Accounting
+  imageURL: https://img.stackshare.io/service/21288/default_c7533b08b125c80abcc5a1f8d76cd7aed9b8f4f8.jpg
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: PodRoom
+  description: A chatroom platform for Podcast communities.
+  website_url: https://www.podroom.live
+  version: 2.2.2
+  open_source: false
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: Customer Community
+  imageURL: https://img.stackshare.io/service/21118/default_9a7a00fb1b5d7592ccf97fa29f819c3ea64179da.jpg
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: Quickwork Journey Builder
+  website_url: https://automation.quickwork.co/#/
+  version: 0.0.0
+  open_source: false
+  hosted_saas: false
+  imageURL: https://img.stackshare.io/service/21121/default_682895d4f0a2777cec582ef7c7f20fd167c1ce11.png
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: ZyWall
+  website_url: https://www.zyxel.com/us/en
+  version: 0.0.0
+  open_source: false
+  hosted_saas: false
+  imageURL: https://img.stackshare.io/service/21125/default_a37b436cb360d7db5c0521e74ebeb8e50f8ffc58.png
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: firebase remote config
+  website_url: https://firebase.google.com/docs/remote-config
+  version: 0.26.0
+  open_source: false
+  hosted_saas: false
+  imageURL: https://img.stackshare.io/service/21151/default_694421a607ee3b50a4add2e20d781a7ad15ab0b4.png
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: 'go '
+  description: Go will make you love programming again. I promise.
+  website_url: https://golang.org/
+  open_source: false
+  hosted_saas: false
+  imageURL: https://img.stackshare.io/service/3458/v02jhlxou71qagr6mwet_normal.png
+  detection_source: ".vib/cert-manager/ginkgo/certmanager_test.go"
+- name: koalas
+  website_url: https://koalas.readthedocs.io/
+  version: 0.9.1
+  open_source: false
+  hosted_saas: false
+  imageURL: https://img.stackshare.io/service/21240/default_f752ec7f084669cc7a76c7c2a6ec3c8580de2c8a.png
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: react-flex-ready
+  website_url: https://www.npmjs.com/package/react-flex-ready
+  version: 0.19.3
+  open_source: false
+  hosted_saas: false
+  imageURL: https://img.stackshare.io/service/21299/default_dfaa844bc9d766062d69a3c9c554c19a33025452.png
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: bufs
+  description: Package bufs implements a simple buffer cache
+  package_url: https://pkg.go.dev/github.com/cznic/bufs
+  version: 0.1.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  imageURL: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: easyjson
+  description: Fast JSON serializer for golang
+  package_url: https://pkg.go.dev/github.com/mailru/easyjson
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  imageURL: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: fsnotify
+  description: Cross-platform file system notifications for Go
+  package_url: https://pkg.go.dev/github.com/fsnotify/fsnotify
+  version: 1.0.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  imageURL: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: gomega
+  description: Ginkgo's Preferred Matcher Library
+  package_url: https://pkg.go.dev/github.com/onsi/gomega
+  version: 1.20.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  imageURL: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: pkg/ioutils
+  description: Go client for the Docker Engine API
+  package_url: https://pkg.go.dev/github.com/fsouza/go-dockerclient/external/github.com/docker/docker/pkg/ioutils
+  version: 0.9.18
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  imageURL: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
+- name: swag
+  description: Goodie bag in use in the go-openapi projects
+  package_url: https://pkg.go.dev/github.com/go-openapi/swag
+  version: 0.19.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  imageURL: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
+  detection_source: ".vib/wavefront/ginkgo/go.mod"
