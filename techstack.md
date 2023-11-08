@@ -64,7 +64,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [nice-org-two/helm-charts-1](https://github.com/nice-org-two/helm-charts-1)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|38<br/>Tools used|393<br/>Contributors|11/07/23 <br/>Report generated|11/25/22<br/>Last commit date|
+|38<br/>Tools used|393<br/>Contributors|11/08/23 <br/>Report generated|11/25/22<br/>Last commit date|
 |------|------|------|------|
 </div>
 
@@ -110,7 +110,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src=''/> Data (2)
+## <img src='https://img.stackshare.io/databases.svg'/> Data (2)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/21122/default_1f970871c388438e737793ed23ce9b5099a178cf.jpg' alt='Quickwork'>
@@ -218,7 +218,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src=''/> Software as a Service (SaaS) (1)
+## <img src='https://img.stackshare.io/saas.svg'/> Software as a Service (SaaS) (1)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/21558/default_44cf04260e415c9c264c0736be65f267677c3097.png' alt='Shufti Pro'>
@@ -365,12 +365,12 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[bufs](https://github.com/cznic/bufs)|v0.1.0|N/A|N/A |BSD-3-Clause|N/A|
-|[easyjson](https://github.com/mailru/easyjson)|v0.0.0|N/A|N/A |MIT|N/A|
-|[fsnotify](https://github.com/fsnotify/fsnotify)|v1.0.2|N/A|N/A |BSD-3-Clause|N/A|
-|[gomega](https://github.com/onsi/gomega)|v1.20.2|N/A|N/A |MIT|N/A|
-|[pkg/ioutils](https://github.com/fsouza/go-dockerclient)|v0.9.18|N/A|N/A |BSD-2-Clause|N/A|
-|[swag](https://github.com/go-openapi/swag)|v0.19.5|N/A|N/A |Apache-2.0|N/A|
+|[bufs](https://pkg.go.dev/github.com/cznic/bufs)|v0.1.0|N/A|N/A |BSD-3-Clause|N/A|
+|[easyjson](https://pkg.go.dev/github.com/mailru/easyjson)|v0.0.0|N/A|N/A |MIT|N/A|
+|[fsnotify](https://pkg.go.dev/github.com/fsnotify/fsnotify)|v1.0.2|N/A|N/A |BSD-3-Clause|N/A|
+|[gomega](https://pkg.go.dev/github.com/onsi/gomega)|v1.20.2|N/A|N/A |MIT|N/A|
+|[pkg/ioutils](https://pkg.go.dev/github.com/fsouza/go-dockerclient/external/github.com/docker/docker/pkg/ioutils)|v0.9.18|N/A|N/A |BSD-2-Clause|N/A|
+|[swag](https://pkg.go.dev/github.com/go-openapi/swag)|v0.19.5|N/A|N/A |Apache-2.0|N/A|
 
 <br/>
 <div align='center'>
