@@ -64,8 +64,8 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [nice-org-two/helm-charts-1](https://github.com/nice-org-two/helm-charts-1)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|38<br/>Tools used|393<br/>Contributors|11/08/23 <br/>Report generated|11/25/22<br/>Last commit date|
-|------|------|------|------|
+|38<br/>Tools used|11/10/23 <br/>Report generated|
+|------|------|
 </div>
 
 ## <img src='https://img.stackshare.io/languages.svg'/> Languages (3)
@@ -365,12 +365,12 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[bufs](https://pkg.go.dev/github.com/cznic/bufs)|v0.1.0|N/A|N/A |BSD-3-Clause|N/A|
-|[easyjson](https://pkg.go.dev/github.com/mailru/easyjson)|v0.0.0|N/A|N/A |MIT|N/A|
-|[fsnotify](https://pkg.go.dev/github.com/fsnotify/fsnotify)|v1.0.2|N/A|N/A |BSD-3-Clause|N/A|
-|[gomega](https://pkg.go.dev/github.com/onsi/gomega)|v1.20.2|N/A|N/A |MIT|N/A|
-|[pkg/ioutils](https://pkg.go.dev/github.com/fsouza/go-dockerclient/external/github.com/docker/docker/pkg/ioutils)|v0.9.18|N/A|N/A |BSD-2-Clause|N/A|
-|[swag](https://pkg.go.dev/github.com/go-openapi/swag)|v0.19.5|N/A|N/A |Apache-2.0|N/A|
+|[bufs](https://pkg.go.dev/github.com/cznic/bufs)|v0.1.0|10/31/22|Jose Antonio Carmona |BSD-3-Clause|N/A|
+|[easyjson](https://pkg.go.dev/github.com/mailru/easyjson)|v0.0.0|10/31/22|Jose Antonio Carmona |MIT|N/A|
+|[fsnotify](https://pkg.go.dev/github.com/fsnotify/fsnotify)|v1.0.2|10/31/22|Jose Antonio Carmona |BSD-3-Clause|N/A|
+|[gomega](https://pkg.go.dev/github.com/onsi/gomega)|v1.20.2|10/31/22|Jose Antonio Carmona |MIT|N/A|
+|[pkg/ioutils](https://pkg.go.dev/github.com/fsouza/go-dockerclient/external/github.com/docker/docker/pkg/ioutils)|v0.9.18|10/31/22|Jose Antonio Carmona |BSD-2-Clause|N/A|
+|[swag](https://pkg.go.dev/github.com/go-openapi/swag)|v0.19.5|10/31/22|Jose Antonio Carmona |Apache-2.0|N/A|
 
 <br/>
 <div align='center'>
