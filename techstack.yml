@@ -1,7 +1,7 @@
 repo_name: nice-org-two/helm-charts-1
-report_id: caefd633979fa862d17921b00cc0ebde
+report_id: 8ec9068e336618f422b50abcc61924a9
 repo_type: Public
-timestamp: '2023-11-08T20:27:45+00:00'
+timestamp: '2023-11-10T16:41:51+00:00'
 requested_by: bob-wise0
 provider: github
 branch: main
@@ -46,6 +46,8 @@ tools:
   sub_category: Serialization Frameworks
   image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: Quickwork
   description: The Integration and API platform to build automated workflows
   website_url: https://quickwork.co/
@@ -57,6 +59,8 @@ tools:
   image_url: https://img.stackshare.io/service/21122/default_1f970871c388438e737793ed23ce9b5099a178cf.jpg
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: dbForge Schema Compare for Redshift/PostgreSQL
   description: Compare and Sync PostgreSQL &amp; Amazon Redshift Databases
   website_url: https://www.devart.com/dbforge/postgresql/schemacompare/
@@ -68,6 +72,8 @@ tools:
   image_url: https://img.stackshare.io/service/21199/default_fc2ebc762805baf8c27cb23feb12da62593659c2.png
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: Argo
   description: Container-native workflows for Kubernetes
   website_url: https://argoproj.github.io/
@@ -80,6 +86,8 @@ tools:
   image_url: https://img.stackshare.io/service/9840/PqKLmP_S_400x400.jpg
   detection_source_url: bitnami/argo-cd/Chart.yaml
   detection_source: bitnami/argo-cd/values.yaml
+  last_updated_by: Javier J. Salmerón-García
+  last_updated_on: 2022-04-27 14:55:35.000000000 Z
 - name: Garden
   description: End-to-end Platform for Kubernetes Development &amp; Testing
   website_url: https://garden.io/product/
@@ -92,6 +100,8 @@ tools:
   image_url: https://img.stackshare.io/service/21618/default_263f520e84b3c6019908a8434d449c889855068c.jpg
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -110,6 +120,8 @@ tools:
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
   detection_source: ".github/workflows/triage.yml"
+  last_updated_by: Fran Mulero
+  last_updated_on: 2022-09-27 14:07:09.000000000 Z
 - name: Grafana
   description: Open source Graphite &amp; InfluxDB Dashboard and Graph Editor
   website_url: http://grafana.org/
@@ -120,6 +132,8 @@ tools:
   sub_category: Monitoring Tools
   image_url: https://img.stackshare.io/service/2645/default_8f9d552b144493679449b16c79647da5787e808b.jpg
   detection_source: bitnami/grafana-operator/templates/grafana.yaml
+  last_updated_by: izturn
+  last_updated_on: 2022-11-09 16:59:37.000000000 Z
 - name: Istio
   description: Open platform to connect, manage, and secure microservices, by Google,
     IBM, and Lyft
@@ -131,6 +145,8 @@ tools:
   sub_category: Microservices Tools
   image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
   detection_source: template/CHART_NAME/values.yaml
+  last_updated_by: Fran Mulero
+  last_updated_on: 2022-09-27 14:07:09.000000000 Z
 - name: Kotest
   description: Powerful, elegant and flexible test framework for Kotlin
   website_url: https://kotest.io/
@@ -143,6 +159,8 @@ tools:
   image_url: https://img.stackshare.io/service/21154/default_5b7922a99e2d777cabf7d8a9b4ba9ff0627eae82.png
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: Kubernetes
   description: Manage a cluster of Linux containers as a single system to accelerate
     Dev and simplify Ops
@@ -154,6 +172,8 @@ tools:
   sub_category: Container Tools
   image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
   detection_source: bitnami/solr/Chart.yaml
+  last_updated_by: gkulkarni32
+  last_updated_on: 2021-02-11 09:07:08.000000000 Z
 - name: OpenYurt
   description: Extending your native Kubernetes to edge (by Alibaba)
   website_url: https://openyurt.io/en-us/
@@ -166,6 +186,8 @@ tools:
   image_url: https://img.stackshare.io/service/21147/default_f869ec037993bd2c3967e7b605ca929be6bbf362.png
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: ZyXel
   description: Your Networking Ally
   website_url: https://www.zyxel.com/us/en/
@@ -177,6 +199,8 @@ tools:
   image_url: https://img.stackshare.io/service/21126/default_82855a9a63ac94e02248a391b260a94acbafb41a.png
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: Shufti Pro
   description: Real-time Identity Verification
   website_url: https://shuftipro.com/
@@ -186,6 +210,8 @@ tools:
   sub_category: Identity Verification as a Service
   image_url: https://img.stackshare.io/service/21558/default_44cf04260e415c9c264c0736be65f267677c3097.png
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: Abstract APIs
   description: Simple, powerful APIs for everyday dev tasks
   website_url: https://www.abstractapi.com/
@@ -197,6 +223,8 @@ tools:
   image_url: https://img.stackshare.io/service/21140/default_8a94513f1340db48c564130fc609b4ce3d010a76.png
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: Appzi
   description: A web based user feedback platform that enables SaaS companies to collect
     product feedback, right from within their website or app
@@ -209,6 +237,8 @@ tools:
   image_url: https://img.stackshare.io/service/21120/default_ff503018433e4c15bd8f88f38f956808d71ae76e.jpg
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: DrugsDisclosed
   description: DrugsDisclosed.com, the ‘medication Trustpilot’, allows patients to
     share real world experiences of their medicines.
@@ -221,6 +251,8 @@ tools:
   image_url: https://img.stackshare.io/service/21139/default_a91af1b38a50bbe8d5c2a2885d3add753139c68e.png
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: Dutypare
   description: Comparing duty free products from worldwide shops.
   website_url: https://dutypare.com
@@ -230,6 +262,8 @@ tools:
   image_url: https://img.stackshare.io/service/21119/default_7d7cdfe126e00b141809117af1af8ba177913dc4.png
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: Eniston
   description: Easy to use Knowledge Base Software you will love managing.
   website_url: https://eniston.io
@@ -239,6 +273,8 @@ tools:
   image_url: https://img.stackshare.io/service/21626/default_c0fde59b2b87032b98232418403c06ab20941ac3.png
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: LISS
   description: Insurance and pension solution
   website_url: https://www.exlservice.com/liss-overview
@@ -250,6 +286,8 @@ tools:
   image_url: https://img.stackshare.io/service/21291/default_6e99badba8284e715499fcb030bbbcf8a76c18e5.png
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: Oktell
   description: A contact center automation platform
   website_url: https://oktell.ru/
@@ -261,6 +299,8 @@ tools:
   image_url: https://img.stackshare.io/service/21302/default_5bbd7ccec3ff0e66da434030f9170680819b14d1.png
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: PAM
   description: A comprehensive accounting and management platform
   website_url: https://www.statestreet.com/solutions/by-capability/ssgs/invest-service/accounting.html
@@ -272,6 +312,8 @@ tools:
   image_url: https://img.stackshare.io/service/21288/default_c7533b08b125c80abcc5a1f8d76cd7aed9b8f4f8.jpg
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: PodRoom
   description: A chatroom platform for Podcast communities.
   website_url: https://www.podroom.live
@@ -283,6 +325,8 @@ tools:
   image_url: https://img.stackshare.io/service/21118/default_9a7a00fb1b5d7592ccf97fa29f819c3ea64179da.jpg
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: Quickwork Journey Builder
   website_url: https://automation.quickwork.co/#/
   version: 0.0.0
@@ -291,6 +335,8 @@ tools:
   image_url: https://img.stackshare.io/service/21121/default_682895d4f0a2777cec582ef7c7f20fd167c1ce11.png
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: ZyWall
   website_url: https://www.zyxel.com/us/en
   version: 0.0.0
@@ -299,6 +345,8 @@ tools:
   image_url: https://img.stackshare.io/service/21125/default_a37b436cb360d7db5c0521e74ebeb8e50f8ffc58.png
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: firebase remote config
   website_url: https://firebase.google.com/docs/remote-config
   version: 0.26.0
@@ -307,6 +355,8 @@ tools:
   image_url: https://img.stackshare.io/service/21151/default_694421a607ee3b50a4add2e20d781a7ad15ab0b4.png
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: 'go '
   description: Go will make you love programming again. I promise.
   website_url: https://golang.org/
@@ -314,6 +364,8 @@ tools:
   hosted_saas: false
   image_url: https://img.stackshare.io/service/3458/v02jhlxou71qagr6mwet_normal.png
   detection_source: ".vib/cert-manager/ginkgo/certmanager_test.go"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: koalas
   website_url: https://koalas.readthedocs.io/
   version: 0.9.1
@@ -322,6 +374,8 @@ tools:
   image_url: https://img.stackshare.io/service/21240/default_f752ec7f084669cc7a76c7c2a6ec3c8580de2c8a.png
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: react-flex-ready
   website_url: https://www.npmjs.com/package/react-flex-ready
   version: 0.19.3
@@ -330,6 +384,8 @@ tools:
   image_url: https://img.stackshare.io/service/21299/default_dfaa844bc9d766062d69a3c9c554c19a33025452.png
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: bufs
   description: Package bufs implements a simple buffer cache
   package_url: https://pkg.go.dev/github.com/cznic/bufs
@@ -342,6 +398,8 @@ tools:
   image_url: https://img.stackshare.io/package/go-packages/image.png
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: easyjson
   description: Fast JSON serializer for golang
   package_url: https://pkg.go.dev/github.com/mailru/easyjson
@@ -354,6 +412,8 @@ tools:
   image_url: https://img.stackshare.io/package/go-packages/image.png
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: fsnotify
   description: Cross-platform file system notifications for Go
   package_url: https://pkg.go.dev/github.com/fsnotify/fsnotify
@@ -366,6 +426,8 @@ tools:
   image_url: https://img.stackshare.io/package/go-packages/image.png
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: gomega
   description: Ginkgo's Preferred Matcher Library
   package_url: https://pkg.go.dev/github.com/onsi/gomega
@@ -378,6 +440,8 @@ tools:
   image_url: https://img.stackshare.io/package/go-packages/image.png
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: pkg/ioutils
   description: Go client for the Docker Engine API
   package_url: https://pkg.go.dev/github.com/fsouza/go-dockerclient/external/github.com/docker/docker/pkg/ioutils
@@ -390,6 +454,8 @@ tools:
   image_url: https://img.stackshare.io/package/go-packages/image.png
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: swag
   description: Goodie bag in use in the go-openapi projects
   package_url: https://pkg.go.dev/github.com/go-openapi/swag
@@ -402,3 +468,5 @@ tools:
   image_url: https://img.stackshare.io/package/go-packages/image.png
   detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
   detection_source: ".vib/wavefront/ginkgo/go.mod"
+  last_updated_by: Jose Antonio Carmona
+  last_updated_on: 2022-10-31 13:31:31.000000000 Z
