@@ -1,7 +1,8 @@
 repo_name: nice-org-two/helm-charts-1
-report_id: eb720f21584f42925a91ed761b251652
+report_id: 3a68e608a167ad1d3664dee78b44442a
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-13T18:17:40+00:00'
+timestamp: '2024-03-17T09:25:16+00:00'
 requested_by: bob-wise0
 provider: github
 branch: main
@@ -17,6 +18,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -27,6 +29,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1
   detection_source: Repo Metadata
 - name: Smarty
   description: Template engine for PHP
@@ -36,6 +39,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1
   detection_source: Repo Metadata
 - name: Protobuf
   description: Google's data interchange format
@@ -45,7 +49,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Serialization Frameworks
   image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.mod
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: Quickwork
@@ -57,8 +62,8 @@ tools:
   category: Data Stores
   sub_category: API Tools
   image_url: https://img.stackshare.io/service/21122/default_1f970871c388438e737793ed23ce9b5099a178cf.jpg
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: dbForge Schema Compare for Redshift/PostgreSQL
@@ -70,8 +75,8 @@ tools:
   category: Data Stores
   sub_category: Database Tools
   image_url: https://img.stackshare.io/service/21199/default_fc2ebc762805baf8c27cb23feb12da62593659c2.png
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: Argo
@@ -84,8 +89,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Container Tools
   image_url: https://img.stackshare.io/service/9840/PqKLmP_S_400x400.jpg
-  detection_source_url: bitnami/argo-cd/Chart.yaml
-  detection_source: bitnami/argo-cd/values.yaml
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/bitnami/argo-cd/Chart.yaml
+  detection_source: ".github/workflows/cd-pipeline.yml"
   last_updated_by: Javier J. Salmerón-García
   last_updated_on: 2022-04-27 14:55:35.000000000 Z
 - name: Garden
@@ -98,8 +103,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Container Tools
   image_url: https://img.stackshare.io/service/21618/default_263f520e84b3c6019908a8434d449c889855068c.jpg
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: Git
@@ -110,6 +115,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -119,18 +125,21 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/triage.yml"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.github/workflows/assign-asset-label.yml
+  detection_source: ".github/workflows/assign-asset-label.yml"
   last_updated_by: Fran Mulero
   last_updated_on: 2022-09-27 14:07:09.000000000 Z
 - name: Grafana
   description: Open source Graphite &amp; InfluxDB Dashboard and Graph Editor
   website_url: http://grafana.org/
+  version: 8.2.20
   license: AGPL-3.0
   open_source: true
   hosted_saas: false
   category: Monitoring
   sub_category: Monitoring Tools
   image_url: https://img.stackshare.io/service/2645/default_8f9d552b144493679449b16c79647da5787e808b.jpg
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/bitnami/grafana/Chart.yaml
   detection_source: bitnami/grafana-operator/templates/grafana.yaml
   last_updated_by: izturn
   last_updated_on: 2022-11-09 16:59:37.000000000 Z
@@ -144,7 +153,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Microservices Tools
   image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
-  detection_source: template/CHART_NAME/values.yaml
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.github/workflows/assign-asset-label.yml
+  detection_source: ".github/workflows/assign-asset-label.yml"
   last_updated_by: Fran Mulero
   last_updated_on: 2022-09-27 14:07:09.000000000 Z
 - name: Kotest
@@ -157,8 +167,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/21154/default_5b7922a99e2d777cabf7d8a9b4ba9ff0627eae82.png
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: Kubernetes
@@ -171,6 +181,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Container Tools
   image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/bitnami/solr/Chart.yaml
   detection_source: bitnami/solr/Chart.yaml
   last_updated_by: gkulkarni32
   last_updated_on: 2021-02-11 09:07:08.000000000 Z
@@ -184,8 +195,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Container Tools
   image_url: https://img.stackshare.io/service/21147/default_f869ec037993bd2c3967e7b605ca929be6bbf362.png
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: ZyXel
@@ -197,8 +208,8 @@ tools:
   category: Monitoring
   sub_category: Networking Hardware
   image_url: https://img.stackshare.io/service/21126/default_82855a9a63ac94e02248a391b260a94acbafb41a.png
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: Shufti Pro
@@ -209,7 +220,8 @@ tools:
   category: Application Utilities
   sub_category: Identity Verification as a Service
   image_url: https://img.stackshare.io/service/21558/default_44cf04260e415c9c264c0736be65f267677c3097.png
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.mod
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: Abstract APIs
@@ -221,8 +233,8 @@ tools:
   category: Application Utilities
   sub_category: Customer Information API
   image_url: https://img.stackshare.io/service/21140/default_8a94513f1340db48c564130fc609b4ce3d010a76.png
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: Appzi
@@ -235,8 +247,8 @@ tools:
   category: Support, Sales, and Marketing
   sub_category: Feedback Widget
   image_url: https://img.stackshare.io/service/21120/default_ff503018433e4c15bd8f88f38f956808d71ae76e.jpg
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: DrugsDisclosed
@@ -249,8 +261,8 @@ tools:
   category: Application Utilities
   sub_category: Healthcare
   image_url: https://img.stackshare.io/service/21139/default_a91af1b38a50bbe8d5c2a2885d3add753139c68e.png
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: Dutypare
@@ -260,8 +272,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/21119/default_7d7cdfe126e00b141809117af1af8ba177913dc4.png
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: Eniston
@@ -271,8 +283,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/21626/default_c0fde59b2b87032b98232418403c06ab20941ac3.png
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: LISS
@@ -284,8 +296,8 @@ tools:
   category: Support, Sales, and Marketing
   sub_category: Insurance Solutions
   image_url: https://img.stackshare.io/service/21291/default_6e99badba8284e715499fcb030bbbcf8a76c18e5.png
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: Oktell
@@ -297,8 +309,8 @@ tools:
   category: Support, Sales, and Marketing
   sub_category: Call Center Management
   image_url: https://img.stackshare.io/service/21302/default_5bbd7ccec3ff0e66da434030f9170680819b14d1.png
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: PAM
@@ -310,8 +322,8 @@ tools:
   category: Back Office
   sub_category: Accounting
   image_url: https://img.stackshare.io/service/21288/default_c7533b08b125c80abcc5a1f8d76cd7aed9b8f4f8.jpg
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: PodRoom
@@ -323,8 +335,8 @@ tools:
   category: Support, Sales, and Marketing
   sub_category: Customer Community
   image_url: https://img.stackshare.io/service/21118/default_9a7a00fb1b5d7592ccf97fa29f819c3ea64179da.jpg
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: Quickwork Journey Builder
@@ -333,8 +345,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/21121/default_682895d4f0a2777cec582ef7c7f20fd167c1ce11.png
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: ZyWall
@@ -343,8 +355,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/21125/default_a37b436cb360d7db5c0521e74ebeb8e50f8ffc58.png
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: firebase remote config
@@ -353,8 +365,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/21151/default_694421a607ee3b50a4add2e20d781a7ad15ab0b4.png
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: 'go '
@@ -363,6 +375,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/3458/v02jhlxou71qagr6mwet_normal.png
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/certmanager_test.go
   detection_source: ".vib/cert-manager/ginkgo/certmanager_test.go"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
@@ -372,8 +385,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/21240/default_f752ec7f084669cc7a76c7c2a6ec3c8580de2c8a.png
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: react-flex-ready
@@ -382,8 +395,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/21299/default_dfaa844bc9d766062d69a3c9c554c19a33025452.png
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: bufs
@@ -396,8 +409,8 @@ tools:
   category: Libraries
   sub_category: Go Modules Packages
   image_url: https://img.stackshare.io/package/go-packages/image.png
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: easyjson
@@ -410,8 +423,8 @@ tools:
   category: Libraries
   sub_category: Go Modules Packages
   image_url: https://img.stackshare.io/package/go-packages/image.png
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: fsnotify
@@ -424,8 +437,8 @@ tools:
   category: Libraries
   sub_category: Go Modules Packages
   image_url: https://img.stackshare.io/package/go-packages/image.png
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: gomega
@@ -438,8 +451,8 @@ tools:
   category: Libraries
   sub_category: Go Modules Packages
   image_url: https://img.stackshare.io/package/go-packages/image.png
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: pkg/ioutils
@@ -452,8 +465,8 @@ tools:
   category: Libraries
   sub_category: Go Modules Packages
   image_url: https://img.stackshare.io/package/go-packages/image.png
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
 - name: swag
@@ -466,7 +479,7 @@ tools:
   category: Libraries
   sub_category: Go Modules Packages
   image_url: https://img.stackshare.io/package/go-packages/image.png
-  detection_source_url: ".vib/cert-manager/ginkgo/go.sum"
-  detection_source: ".vib/wavefront/ginkgo/go.mod"
+  detection_source_url: https://github.com/nice-org-two/helm-charts-1/blob/main/.vib/cert-manager/ginkgo/go.sum
+  detection_source: ".vib/cert-manager/ginkgo/go.mod"
   last_updated_by: Jose Antonio Carmona
   last_updated_on: 2022-10-31 13:31:31.000000000 Z
